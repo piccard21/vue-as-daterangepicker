@@ -219,7 +219,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
     import SvgIcon from "vue-svgicon";
     import dictionaries from "../translations/index.js";
 
