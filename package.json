@@ -1,6 +1,6 @@
 {
   "name": "vue-as-daterangepicker",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "./dist/app.common.js",
   "description": "A responsive daterange-picker for Vue",
   "author": "Andreas Stephan <info@cafe-serendipity.com> (info@cafe-serendipity.com)",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name app",
+    "build": "vue-cli-service build --target lib --name app ./src/install.js",
     "build-ui": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },

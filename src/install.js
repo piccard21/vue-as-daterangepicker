@@ -1,10 +1,20 @@
-import Vue from 'vue'
-import DateRangePicker from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
+import SvgIcon from "vue-svgicon";
+import dictionaries from "./translations/index.js";
 
-const plugin = {
-    install(Vue, options) {
-        Vue.component('DateRangePicker', DateRangePicker)
-    }
+Vue.prototype.$legends = dictionaries;
+
+Vue.use(SvgIcon, {
+    tagName: "svgicon"
+});
+
+const Components = {
+    App
 }
 
-export default plugin
+Object.keys(Components).forEach(name => {
+    Vue.component(name, Components[name])
+})
+
+export default Components

@@ -257,7 +257,7 @@
     }
 
     export default {
-        name: 'App',
+        name: 'DaterangePicker',
         filters: {
             date: dateFilter
         },
