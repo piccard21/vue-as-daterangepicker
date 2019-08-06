@@ -220,6 +220,9 @@
 </template>
 
 <script lang="ts">
+    import SvgIcon from "vue-svgicon";
+    import dictionaries from "../translations/index.js";
+
     import '../assets/icons'
     import 'bootstrap-4-grid/css/grid.min.css'
     import {dateFilter} from 'vue-date-fns'
@@ -249,6 +252,12 @@
         subWeeks,
         subYears
     } from 'date-fns'
+
+    Vue.prototype.$legends = dictionaries;
+
+    Vue.use(SvgIcon, {
+        tagName: "svgicon"
+    });
 
     const locales = {
         en: require('date-fns/locale/en'),
