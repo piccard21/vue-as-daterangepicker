@@ -8,7 +8,6 @@
     "url": "https://github.com/piccard21/vue-as-daterangepicker"
   },
   "license": "MIT",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
