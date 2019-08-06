@@ -5,7 +5,7 @@
   "author": "Andreas Stephan <info@cafe-serendipity.com> (info@cafe-serendipity.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/piccard21/vue-daterange"
+    "url": "https://github.com/piccard21/vue-as-daterangepicker"
   },
   "license": "MIT",
   "private": true,
