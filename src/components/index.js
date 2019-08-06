@@ -1,9 +1,9 @@
 import Vue from 'vue'
-import DateRangePicker from './DateRangePicker.vue'
+import DaterangePicker from './DaterangePicker.vue'
 
 const plugin = {
     install(Vue, options) {
-        Vue.component('DateRangePicker', DateRangePicker)
+        Vue.component('DaterangePicker', DaterangePicker)
     }
 }
 
