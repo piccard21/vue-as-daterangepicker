@@ -1,6 +1,7 @@
 {
   "name": "vue-as-daterangepicker",
   "version": "0.1.0",
+  "description": "A responsive daterange-picker for Vue",
   "author": "Andreas Stephan <info@cafe-serendipity.com> (info@cafe-serendipity.com)",
   "repository": {
     "type": "git",
