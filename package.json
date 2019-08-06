@@ -1,6 +1,6 @@
 {
   "name": "vue-as-daterangepicker",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "./dist/app.common.js",
   "description": "A responsive daterange-picker for Vue",
   "author": "Andreas Stephan <info@cafe-serendipity.com> (info@cafe-serendipity.com)",
@@ -11,9 +11,8 @@
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name app ./src/install.js",
-    "build-ui": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build --target lib --name app ./src/components/index.js",
+    "build-ui": "vue-cli-service build"
   },
   "dependencies": {
     "bootstrap-4-grid": "^3.1.0",
@@ -26,15 +25,8 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.10.0",
-    "@vue/cli-plugin-eslint": "^3.10.0",
     "@vue/cli-service": "^3.10.0",
-    "@vue/eslint-config-prettier": "^5.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
-    "prettier": "^1.18.2",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
   },

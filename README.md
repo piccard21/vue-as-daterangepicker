@@ -1,6 +1,29 @@
 # vue-as-daterangepicker
 
-> vue-as-daterangepicker is heavily based on https://github.com/damienroche/vue-mj-daterangepicker
+## Project setup
+```
+yarn install
+```
 
-The component is in its early stages so if there is something wrong - write an issue or create a pull request.
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
 
+### Compiles and minifies for production
+```
+yarn run build
+```
+
+### Run your tests
+```
+yarn run test
+```
+
+### Lints and fixes files
+```
+yarn run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

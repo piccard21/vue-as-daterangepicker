@@ -1,7 +1,7 @@
 import Vue from "vue";
-import App from "./App.vue";
+import DaterangePicker from "./DaterangePicker.vue";
 import SvgIcon from "vue-svgicon";
-import dictionaries from "./translations/index.js";
+import dictionaries from "../translations/index.js";
 
 Vue.prototype.$legends = dictionaries;
 
@@ -10,7 +10,7 @@ Vue.use(SvgIcon, {
 });
 
 const Components = {
-    App
+    DaterangePicker
 }
 
 Object.keys(Components).forEach(name => {
