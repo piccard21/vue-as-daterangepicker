@@ -1,10 +1,6 @@
 import Vue from 'vue'
-import DaterangePicker from './DaterangePicker.vue'
+import DaterangePicker from './DaterangePicker'
 
-const plugin = {
-    install(Vue, options) {
-        Vue.component('DaterangePicker', DaterangePicker.default)
-    }
-}
+Vue.component('DaterangePicker', DaterangePicker)
 
-export default plugin
+export default DaterangePicker
