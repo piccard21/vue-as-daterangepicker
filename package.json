@@ -1,6 +1,7 @@
 {
   "name": "vue-as-daterangepicker",
-  "version": "0.1.0",
+  "version": "0.1.2",
+  "main": "./dist/app.common.js",
   "description": "A responsive daterange-picker for Vue",
   "author": "Andreas Stephan <info@cafe-serendipity.com> (info@cafe-serendipity.com)",
   "repository": {
@@ -36,5 +37,11 @@
     "prettier": "^1.18.2",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "files": [
+    "dist/*",
+    "*.json",
+    "*.js",
+    "*.ts"
+  ]
 }
